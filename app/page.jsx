@@ -62,6 +62,9 @@ export default function Home() {
       ScrollTrigger.refresh();
     });
 
+    if (window.innerWidth < 600) {
+      gsapCtx.revert();
+    }
     return () => gsapCtx.revert();
   });
 
