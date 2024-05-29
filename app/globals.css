@@ -35,13 +35,22 @@ td {
   vertical-align: baseline;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Typography */
 body {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   line-height: 1.6;
-  background-color: #000;
   color: #94a3b8;
+  background-image: url(/12077.jpg);
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 h1,
@@ -69,6 +78,8 @@ a:hover {
   width: 100%;
   margin: 0 auto;
   padding: 0 20px; /* Adjust as needed */
+  position: relative;
+  z-index: 99;
 }
 
 /* Utility classes */
@@ -100,4 +111,20 @@ h2 {
 p {
   color: #94a3b8;
   margin-bottom: 15px;
+}
+
+.mask {
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: hsla(0, 0%, 0%, 0.9);
+  mask: radial-gradient(circle at 50% 50%, transparent 40px, black 150px);
+  -webkit-mask: radial-gradient(
+    circle at 50% 50%,
+    transparent 40px,
+    black 150px
+  );
 }

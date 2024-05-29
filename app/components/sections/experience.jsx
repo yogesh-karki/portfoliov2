@@ -4,8 +4,8 @@ const data = [
   {
     date: "2023 - PRESENT",
     title: "Fronend Engineer - Keroneva Design",
-    link: "/",
-    text: "Build and maintain critical components used to construct Klaviyo’s frontend, across the whole product. Work closely with cross-functional teams, including developers, designers, and product managers, to implement and advocate for best practices in web accessibility.",
+    link: "#",
+    text: "Thrilled to share my journey at Keroneva Design, where I've been working since 2023, continuously expanding my knowledge and skills. Focusing on building and maintaining 2D interactive websites, I've sharpened my proficiency in JavaScript, TypeScript, React, Redux, Next.js, GSAP, and SCSS. Excited to continue pushing the boundaries of web development and exploring innovative ways to create immersive user experiences!",
     tags: [
       "JavaScript",
       "TypeScript",
@@ -19,8 +19,8 @@ const data = [
   {
     date: "2021 - 2023",
     title: "Frontend Developer - Hue Shine",
-    link: "/",
-    text: "Build, style, and ship high-quality websites, design systems, mobile apps, and digital experiences for a diverse array of projects for clients including Harvard Business School, Everytown for Gun Safety, Pratt Institute, Koala Health, Vanderbilt University, The 19th News, and more. Provide leadership within engineering department through close collaboration, knowledge shares, and spearheading the development of internal tools.",
+    link: "#",
+    text: "Excited to share my journey as a Frontend Developer at Hue Shine from 2021-2023! During my time there, I refined my expertise in JavaScript, React, Axios, HTML & SCSS, Laravel, WordPress, mySQL, and Git. Excited to continue growing and exploring new technologies in the ever-evolving world of web development!",
     tags: [
       "JavaScript",
       "React",
@@ -33,10 +33,10 @@ const data = [
     ],
   },
   {
-    date: "2019 - 2023",
-    title: "UX/UI Designer - Hue Shine",
-    link: "/",
-    text: "Worked with the UI team to engineer and improve major features of Starry’s customer-facing Android app.",
+    date: "2019 - 2021",
+    title: "Web Designer - Hue Shine Pvt Ltd",
+    link: "#",
+    text: "I worked as a web designer at Hue Shine from 2019 to 2021, where I honed my skills in HTML & CSS, jQuery, JavaScript, Figma, Photoshop, Illustrator, and Adobe XD. This role allowed me to develop a comprehensive skill set in both design and front-end development",
     tags: [
       "HTML & CSS",
       "jQuery",
@@ -49,9 +49,9 @@ const data = [
   },
   {
     date: "2018 - 2019",
-    title: "Web Designer - Kulchan Pvt Ltd",
+    title: " Web Designer - Kulchan Pvt Ltd",
     link: "",
-    text: "Developed, maintained, and shipped production code for client websites. Clients included JetBlue, Lovesac, U.S. Cellular, U.S. Department of Defense, and more.",
+    text: "Starting as an intern, I gained a strong foundation in website design and development. This experience ignited my passion for the field, leading me to pursue a dedicated career in website development.",
     tags: ["HTML & CSS", "PHP", "Photoshop"],
   },
 ];
