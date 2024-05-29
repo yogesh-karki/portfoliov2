@@ -18,7 +18,7 @@ const data = [
   },
   {
     date: "2021 - 2023",
-    title: "Frontend Developer - Hue Shine",
+    title: "Frontend Developer - Hue Shine Pvt Ltd",
     link: "#",
     text: "Excited to share my journey as a Frontend Developer at Hue Shine from 2021-2023! During my time there, I refined my expertise in JavaScript, React, Axios, HTML & SCSS, Laravel, WordPress, mySQL, and Git. Excited to continue growing and exploring new technologies in the ever-evolving world of web development!",
     tags: [
