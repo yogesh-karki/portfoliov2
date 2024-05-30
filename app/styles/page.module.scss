@@ -130,3 +130,27 @@ $font-color-light: #e9f0fb;
 .project {
   padding: 60px 0;
 }
+
+.mb_view {
+  display: none;
+}
+
+.copyright {
+  text-align: right;
+
+  a {
+    text-decoration: underline;
+    opacity: 0.7;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .mb_view {
+    display: block;
+    padding-left: 20px;
+  }
+}

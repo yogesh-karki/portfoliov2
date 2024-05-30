@@ -10,14 +10,14 @@ const Bio = () => {
 
       <p>
         Having worked extensively with technologies such as
-        <strong> Javascript</strong>, <strong>React JS</strong>, Redux, React
-        Hooks, <strong>Next JS</strong>, Pixi JS,{" "}
+        <strong> JavaScript(ES2015/ ES 6)</strong>, <strong>React</strong>,
+        Redux, React Hooks, <strong>Next.js</strong>, TypeScript, Pixi JS,{" "}
         <strong>HTML, CSS/SASS</strong>, Styled Components,{" "}
-        <strong>GSAP</strong>, AnimeJS, Smooth Scrolling, Git, ESLint,
-        Contentful, GraphQl. I am well-equipped to meet the technical
-        requirements of the role. Proficiency in design tools like Adobe XD,
-        Adobe Photoshop, and Figma further complements my skill set, enabling me
-        to contribute comprehensively to the development life cycle.
+        <strong>GSAP</strong>, Mapbox JS, AnimeJS, Smooth Scrolling, Git,
+        ESLint, GraphQl, Vercel, Google Analytics. I am well-equipped to meet
+        the technical requirements of the role. Proficiency in design tools like
+        Adobe XD, Adobe Photoshop, and Figma further complements my skill set,
+        enabling me to contribute comprehensively to the development life cycle.
       </p>
     </div>
   );

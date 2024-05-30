@@ -135,6 +135,8 @@ export default function Home() {
                 ref={experienceBoxRef}
                 id="experience"
               >
+                <h2 className={styles.mb_view}>EXPERIENCE</h2>
+
                 <Experience />
               </div>
 
@@ -143,7 +145,18 @@ export default function Home() {
                 ref={projectBoxRef}
                 id={"project"}
               >
+                <h2 className={styles.mb_view}>PROJECTS</h2>
+
                 <Project />
+              </div>
+
+              <div className={styles.copyright}>
+                <p>
+                  © Yogesh Karki.{" "}
+                  <a href="https://karkiyogesh.com.np/v1/" target="_blank">
+                    Portfolio v1
+                  </a>
+                </p>
               </div>
             </div>
           </Grid>

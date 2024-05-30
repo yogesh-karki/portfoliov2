@@ -3,7 +3,7 @@ import Card from "./card";
 const data = [
   {
     date: "2023 - PRESENT",
-    title: "Fronend Engineer - Keroneva Design",
+    title: "Frontend Engineer - Keroneva Design",
     link: "#",
     text: "Thrilled to share my journey at Keroneva Design, where I've been working since 2023, continuously expanding my knowledge and skills. Focusing on building and maintaining 2D interactive websites, I've sharpened my proficiency in JavaScript, TypeScript, React, Redux, Next.js, GSAP, and SCSS. Excited to continue pushing the boundaries of web development and exploring innovative ways to create immersive user experiences!",
     tags: [
