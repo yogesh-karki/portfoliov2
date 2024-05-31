@@ -16,6 +16,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 
 import Mask from "./hook/mask";
+import Head from "next/head";
 
 export default function Home() {
   const bioBoxRef = useRef(null);
@@ -69,99 +70,108 @@ export default function Home() {
   });
 
   return (
-    <main id="container" className="main">
-      <Mask />
-      <Container maxWidth={"lg"}>
-        <Grid container>
-          <Grid item md={6}>
-            <div className={styles.left_side} id="fixSection">
-              <div>
-                <div className={styles.head_component}>
-                  <h1>Yogesh Karki</h1>
-                  <h2>Frontend Engineer</h2>
+    <>
+      <Head>
+        <title>Yogesh Karki</title>
+        <meta property="og:image" content={`/yogesh.png`} />
+        <meta property="og:image:width" content="640" />
+        <meta property="og:image:height" content="442" />
+      </Head>
+
+      <main id="container" className="main">
+        <Mask />
+        <Container maxWidth={"lg"}>
+          <Grid container>
+            <Grid item md={6}>
+              <div className={styles.left_side} id="fixSection">
+                <div>
+                  <div className={styles.head_component}>
+                    <h1>Yogesh Karki</h1>
+                    <h2>Frontend Engineer</h2>
+                    <p>
+                      I transform ideas into visually stunning and interactive
+                      web experiences.
+                    </p>
+                  </div>
+
+                  <div className={styles.navs}>
+                    <a href="#bio" ref={bioNavRef}>
+                      ABOUT
+                    </a>
+                    <a href="#experience" ref={experienceNavRef}>
+                      EXPERIENCE
+                    </a>
+                    <a href="#project" ref={projectNavRef}>
+                      PROJECTS
+                    </a>
+                  </div>
+                </div>
+
+                <div className={styles.social}>
+                  <a href="https://github.com/yogesh-karki/" target="_blank">
+                    <GitHubIcon />
+                  </a>
+
+                  <a
+                    href="https://www.linkedin.com/in/karkiyogesh/"
+                    target="_blank"
+                  >
+                    <LinkedInIcon />
+                  </a>
+
+                  <a
+                    href="https://www.instagram.com/yogeshkarki73/"
+                    target="_blank"
+                  >
+                    <InstagramIcon />
+                  </a>
+
+                  <a href="mailto:kulchan.yogesh2@gmail.com" target="_blank">
+                    <MailOutlineIcon />
+                  </a>
+                </div>
+              </div>
+            </Grid>
+
+            <Grid item md={6}>
+              <div className={styles.right_side}>
+                <div ref={bioBoxRef} id="bio">
+                  <Bio />
+                </div>
+
+                <div
+                  className={styles.experience}
+                  ref={experienceBoxRef}
+                  id="experience"
+                >
+                  <h2 className={styles.mb_view}>EXPERIENCE</h2>
+
+                  <Experience />
+                </div>
+
+                <div
+                  className={styles.project}
+                  ref={projectBoxRef}
+                  id={"project"}
+                >
+                  <h2 className={styles.mb_view}>PROJECTS</h2>
+
+                  <Project />
+                </div>
+
+                <div className={styles.copyright}>
                   <p>
-                    I transform ideas into visually stunning and interactive web
-                    experiences.
+                    © Yogesh Karki.{" "}
+                    <a href="https://karkiyogesh.com.np/v1/" target="_blank">
+                      Portfolio v1
+                    </a>
                   </p>
                 </div>
-
-                <div className={styles.navs}>
-                  <a href="#bio" ref={bioNavRef}>
-                    ABOUT
-                  </a>
-                  <a href="#experience" ref={experienceNavRef}>
-                    EXPERIENCE
-                  </a>
-                  <a href="#project" ref={projectNavRef}>
-                    PROJECTS
-                  </a>
-                </div>
               </div>
-
-              <div className={styles.social}>
-                <a href="https://github.com/yogesh-karki/" target="_blank">
-                  <GitHubIcon />
-                </a>
-
-                <a
-                  href="https://www.linkedin.com/in/karkiyogesh/"
-                  target="_blank"
-                >
-                  <LinkedInIcon />
-                </a>
-
-                <a
-                  href="https://www.instagram.com/yogeshkarki73/"
-                  target="_blank"
-                >
-                  <InstagramIcon />
-                </a>
-
-                <a href="mailto:kulchan.yogesh2@gmail.com" target="_blank">
-                  <MailOutlineIcon />
-                </a>
-              </div>
-            </div>
+            </Grid>
           </Grid>
-
-          <Grid item md={6}>
-            <div className={styles.right_side}>
-              <div ref={bioBoxRef} id="bio">
-                <Bio />
-              </div>
-
-              <div
-                className={styles.experience}
-                ref={experienceBoxRef}
-                id="experience"
-              >
-                <h2 className={styles.mb_view}>EXPERIENCE</h2>
-
-                <Experience />
-              </div>
-
-              <div
-                className={styles.project}
-                ref={projectBoxRef}
-                id={"project"}
-              >
-                <h2 className={styles.mb_view}>PROJECTS</h2>
-
-                <Project />
-              </div>
-
-              <div className={styles.copyright}>
-                <p>
-                  © Yogesh Karki.{" "}
-                  <a href="https://karkiyogesh.com.np/v1/" target="_blank">
-                    Portfolio v1
-                  </a>
-                </p>
-              </div>
-            </div>
-          </Grid>
-        </Grid>
-      </Container>
-    </main>
+        </Container>
+      </main>
+    </>
   );
 }
